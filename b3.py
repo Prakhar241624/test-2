@@ -1,0 +1,1 @@
+emp.loc[emp.groupby('department')['salary'].idxmax()]
